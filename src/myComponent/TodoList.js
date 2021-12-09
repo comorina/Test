@@ -1,5 +1,5 @@
-import bin from'./bin.png'; // Image Import here.. 
-import edit from'./edit.png';
+//import bin from'./bin.png'; // Image Import here.. 
+//import edit from'./edit.png';
 import React from 'react';
 import './TodoList.css';
 //import { Link } from 'react-router-dom';
