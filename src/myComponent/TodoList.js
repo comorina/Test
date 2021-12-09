@@ -1,5 +1,5 @@
-//import bin from'./bin.png'; // Image Import here.. 
-//import edit from'./edit.png';
+import bin from'./bin.png'; // Image Import here.. 
+import edit from'./edit.png';
 import React from 'react';
 import './TodoList.css';
 //import { Link } from 'react-router-dom';
@@ -26,8 +26,8 @@ export default function TodoList(){
                 <tr>
                     <td><h3 className="Listname">Apple</h3></td>
                     <td>
-                            {/*<button className="btn"> <img src={bin} className="btnsize"/> </button>
-                            < button className="btn1"> <img src={edit} className="btnsize"/> </button>*/}
+                            <button className="btn"> <img src={bin} className="btnsize"/> </button>
+                            < button className="btn1"> <img src={edit} className="btnsize"/> </button>
                     </td>
                 </tr>
             </table>
