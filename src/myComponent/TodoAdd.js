@@ -14,12 +14,17 @@ export default function TodoAdd(){
                 <div className='fit'></div>
                 <h1 className='t'>Todo App</h1>
             </header>
+
             <p className='para'>Here you can add Todo.</p>
+
             <input type='text' className='inpt' placeholder='Title.. .' autoFocus required/><br/>
+            
             <div>
-            <Link to='/TodoList'>
-            <button type="button" onclick={myfunction} className="addbtn">Add</button>
-            </Link></div>
+                <Link to='/TodoList'>
+                    <button type="button" onclick={myfunction} className="addbtn">Add</button>
+                </Link>
+            </div>
+
         </div>
     )
 }
