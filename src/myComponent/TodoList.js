@@ -26,8 +26,8 @@ export default function TodoList(){
                 <tr>
                     <td><h3 className="Listname">Apple</h3></td>
                     <td>
-                            <button className="btn"> <img src={bin} className="btnsize"/> </button>
-                            < button className="btn1"> <img src={edit} className="btnsize"/> </button>
+                            {/*<button className="btn"> <img src={bin} className="btnsize"/> </button>
+                            < button className="btn1"> <img src={edit} className="btnsize"/> </button>*/}
                     </td>
                 </tr>
             </table>
